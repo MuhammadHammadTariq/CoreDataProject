@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ApiResponse" representedClassName="ApiResponse" syncable="YES">
+        <attribute name="astronomicalTwilightBegin" optional="YES" attributeType="String"/>
+        <attribute name="astronomicalTwilightEnd" optional="YES" attributeType="String"/>
+        <attribute name="civilTwilightBegin" optional="YES" attributeType="String"/>
+        <attribute name="civilTwilightEnd" optional="YES" attributeType="String"/>
+        <attribute name="dayLength" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nauticalTwilightBegin" optional="YES" attributeType="String"/>
+        <attribute name="nauticalTwilightEnd" optional="YES" attributeType="String"/>
+        <attribute name="solarNoon" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="sunrise" optional="YES" attributeType="String"/>
+        <attribute name="sunset" optional="YES" attributeType="String"/>
+    </entity>
+</model>

@@ -19,7 +19,7 @@ extension ApiResponse {
     @NSManaged public var sunrise: String?
     @NSManaged public var sunset: String?
     @NSManaged public var solarNoon: String?
-    @NSManaged public var dayLength: Int64
+    @NSManaged public var dayLength: Int32
     @NSManaged public var civilTwilightBegin: String?
     @NSManaged public var civilTwilightEnd: String?
     @NSManaged public var nauticalTwilightBegin: String?
